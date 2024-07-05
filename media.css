@@ -1,0 +1,45 @@
+.box{
+	border: 1px solid red;
+	width: 40%;
+	height: 400px;
+	background: red;
+}
+
+
+@media screen and (min-width:1201px){
+	.box{
+		background: yellow;
+	}
+	h1{
+		font-size: 70px;
+	}
+}
+
+
+@media screen and (min-width:991px) and (max-width:1200px){
+	.box{
+		background: green;
+	}
+	h1{
+		font-size: 50px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+	.box{
+		background: blue;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+	.box{
+		background: red;
+	}
+	h1{
+		font-size: 20px;
+	}
+}

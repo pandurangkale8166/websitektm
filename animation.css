@@ -1,0 +1,76 @@
+.box{
+    border: 1px solid red;
+    width: 10%;
+    height: 120px;
+    background: red;
+}
+
+.box1{
+	position: absolute;
+	left: 1215px;
+	top: 10px;
+    border: 1px solid yellow;
+    width: 10%;
+    height: 120px;
+    background: yellow;
+}
+.box2{
+	margin-top: 375px;
+    border: 1px solid green;
+    width: 10%;
+    height: 120px;
+    background: green;
+}
+.box3{
+	position: absolute;
+	left: 1215px;
+	top: 505px;
+    border: 1px solid blue;
+    width: 10%;
+    height: 120px;
+    background: blue;
+ }
+
+ .box4{
+ 	position: absolute;
+ 	top: 17px;
+ 	left: 25px;
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border-radius: 50%;
+    animation-name: box4;
+    animation-duration: 10s;
+}
+
+@keyframes box4{
+	0%{
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	25%{
+		margin-left: 1215px;
+		margin-top: 0;
+		background: pink;
+	}
+
+	50%{
+		margin-left: 1215px;
+		margin-top: 505px;
+		background: red;
+
+	}
+
+	75%{
+		margin-left: 0;
+		margin-top: 505px;
+		background: lightgray;
+	}
+
+	100%{
+		margin-left: 0;
+		margin-top: 0;
+	}
+}
